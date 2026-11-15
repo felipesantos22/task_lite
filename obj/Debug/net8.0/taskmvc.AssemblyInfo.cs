@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("taskmvc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0cde46eac861ec3ac6c709ea9a79dfef9e35e91c")]
 [assembly: System.Reflection.AssemblyProductAttribute("taskmvc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("taskmvc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

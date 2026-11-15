@@ -14,6 +14,7 @@
     <tr>
         <th>Id</th>
         <th>Nome</th>
+        <th class="text-md-end">Ações</th>
     </tr>
     </thead>
 
@@ -24,19 +25,34 @@
             <td>@item.Id</td>
             <td>@item.Name</td>
             <td>
-                <a asp-action="Edit"
-                   asp-route-id="@item.Id"
-                   class="btn btn-warning">
-                    Editar
-                </a>
+                <div class="d-flex justify-content-end gap-2">
+                    <a asp-action="Edit"
+                       asp-route-id="@item.Id"
+                       class="btn btn-info">
+                        Editar
+                    </a>
+                    @*
+                    <form asp-action="DeleteConfirmed"
+                          asp-route-id="@item.Id"
+                          method="post">
 
-                <a asp-action="Delete"
-                   asp-route-id="@item.Id"
-                   class="btn btn-danger">
-                    Excluir
-                </a>
+                        <button type="submit" class="btn btn-danger">
+                            Excluir
+                        </button>
+                    </form>
+                    *@
+                    <button type="button"
+                            onclick="deleteTask(@item.Id)"
+                            class="btn btn-secondary">
+                        <strong>Delete</strong>
+                    </button>
+                </div>
             </td>
         </tr>
     }
     </tbody>
 </table>
+
+@section Scripts {
+    <script src="~/js/delete.js"></script>
+}

@@ -1,0 +1,24 @@
+@model taskmvc.Models.TaskName
+
+<h1>Excluir Produto</h1>
+
+<p>
+    Deseja excluir o produto
+    <strong>@Model.Name</strong>?
+</p>
+
+<form asp-action="DeleteConfirmed" method="post">
+
+    <input type="hidden" asp-for="Name"/>
+
+    <button type="submit"
+            class="btn btn-danger">
+        Excluir
+    </button>
+
+    <a asp-action="Index"
+       class="btn btn-secondary">
+        Cancelar
+    </a>
+
+</form>

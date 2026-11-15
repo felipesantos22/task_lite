@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/felipesantos/AspNetMvc/taskmvc/taskmvc/wwwroot/js/delete.js",
+      "PackagePath": "staticwebassets/js/delete.js"
+    },
+    {
       "Id": "/Users/felipesantos/AspNetMvc/taskmvc/taskmvc/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },

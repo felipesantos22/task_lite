@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vcW+fmn2A+T3oCHmSVm8tXH0hGV2TB9j+q1RVTsTr5o=",
+  "Hash": "mQTqaE7cHbbGspUydqlO3DDbu86N9K9KENT/VlnyPXg=",
   "Source": "taskmvc",
   "BasePath": "_content/taskmvc",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/favicon.ico"
+    },
+    {
+      "Identity": "/Users/felipesantos/AspNetMvc/taskmvc/taskmvc/wwwroot/js/delete.js",
+      "SourceId": "taskmvc",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/felipesantos/AspNetMvc/taskmvc/taskmvc/wwwroot/",
+      "BasePath": "_content/taskmvc",
+      "RelativePath": "js/delete.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/delete.js"
     },
     {
       "Identity": "/Users/felipesantos/AspNetMvc/taskmvc/taskmvc/wwwroot/js/site.js",

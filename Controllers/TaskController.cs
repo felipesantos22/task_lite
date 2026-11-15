@@ -82,4 +82,15 @@ public class TaskController : Controller
 
         return RedirectToAction(nameof(Index));
     }
+    
+    [HttpDelete]
+    public IActionResult DeleteWithJs(int id)
+    {
+        Console.WriteLine($"DELETE RECEBIDO! ID: {id}");
+
+        _service.Delete(id);
+
+        return NoContent();
+    }
+    
 }

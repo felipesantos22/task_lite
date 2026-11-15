@@ -131,3 +131,4 @@
 /Users/felipesantos/AspNetMvc/taskmvc/taskmvc/obj/Debug/net8.0/taskmvc.pdb
 /Users/felipesantos/AspNetMvc/taskmvc/taskmvc/obj/Debug/net8.0/taskmvc.genruntimeconfig.cache
 /Users/felipesantos/AspNetMvc/taskmvc/taskmvc/obj/Debug/net8.0/ref/taskmvc.dll
+/Users/felipesantos/AspNetMvc/taskmvc/taskmvc/obj/Debug/net8.0/taskmvc.sourcelink.json
